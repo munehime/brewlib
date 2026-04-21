@@ -110,7 +110,6 @@ namespace Brewlib.Util
 
                         var alphaInt = (int)a;
                         var alpha = (byte)((alphaInt > 255) ? 255 : ((alphaInt < 0) ? 0 : alphaInt));
-                        if (alpha == 1) alpha = 0;
 
                         var redInt = (int)r;
                         var red = (byte)((redInt > 255) ? 255 : ((redInt < 0) ? 0 : redInt));
